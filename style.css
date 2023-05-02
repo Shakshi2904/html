@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200&display=swap');
 *{  
     margin:0;
     padding:0;
@@ -36,7 +36,7 @@
 .infocontainer{
     /*background-color:red;*/
     height: 60vh;
-    width: 77vw
+    width: 77vw;
     margin:45px;
     display: flex;
     justify-content: space-around;
@@ -78,9 +78,9 @@
     transform: translateY(-5px);
 }
 .devpic img{
-    height: 63vh;
-    width: 22vw;
-    margin:100px;
+    height: 72vh;
+    width: 28vw;
+    margin: 16px;
 }
 .sidebarGo {
     transform: translate(-303px, 0px);
@@ -205,7 +205,7 @@ form button:hover{
     position:relative;
 }
 .tab-links::after{
-    content:='';
+    content:'';
     width:0;
     height:3px;
     position:absolute;
@@ -230,7 +230,7 @@ form button:hover{
     display:block;
 }
 .services{
-    padding=20px;
+    padding:20px;
 }
 .services-container{
     margin:60px;
@@ -238,7 +238,7 @@ form button:hover{
 .services-list{
     display:grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-    grid-gap=100px;
+    grid-gap:100px;
     margin-top:32px;
 }
 .services-list div{
@@ -255,9 +255,10 @@ form button:hover{
     font-family: 'Poppins', sans-serif;
 }
 .cv-col1 img{
-    width: 112px;
+    width: 120px;
     margin: 11px;
-    height: 112px;
+    border-radius: 25px;
+    height: 120px;
 }
 .cv-col2{
     padding:20px;
@@ -277,7 +278,7 @@ form button:hover{
         display: none;
     }
     .intro,.intro-container,.contact-container{
-        margin 50px 8px;
+        margin:50px 8px;
     }
     .sidebar{
         transform: translate(-194px, 0px);
